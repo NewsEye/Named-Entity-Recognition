@@ -16,6 +16,13 @@ In the presence of these errors, rule-based methods are clearly very disoriented
 * BidLSTM-CNN-CRF : https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf
 
 # Data
-In order to simulate OCRed documents, we have used the available corpora of CoNLL-2002 and CoNLL-2003; we added to them artificial types and levels of OCR degradations.
+In order to simulate OCRed documents, we have used the available corpora of CoNLL-2002 and CoNLL-2003; we added to them artificial types and levels of OCR degradations using the DocCreator tool https://doc-creator.labri.fr/. we applied four types of degradation related to storage conditions or poor quality of printing materials that may be present on historical digitized documents:
+* Character degradation: to simulate the most common character degradation due to the age of the document or the use of a scanner incorrectly set. 
+* Phantom degradation: to simulate degradation that can appear in worn documents.
+* Bleed-through: to simulate degradation that appear with double-sided pages.
+* Blurring: to simulate a blurring  effect.
 
 # Models
+* English
+* Dutch
+* Spanish
